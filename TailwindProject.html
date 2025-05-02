@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Project</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      .container{
+      
+        max-width: 1200px;
+        margin: auto;
+      }
+      
+    
+    </style>
+
+</head>
+
+<body>
+
+<header class="container border-b ">
+  <nav class="flex items-center justify-around">
+    <div >   
+      <img class="w-50 h-20" src="https://uxwing.com/wp-content/themes/uxwing/download/fruits-vegetables/carrot-icon.png"/>
+      <p>Carrot</p>
+    </div>
+  
+   <div class="flex">
+      <input type="text" class="border rounded-md border-yellow-400 h-[50px] px-[10px] focus:outline-none" placeholder="search for items ..."/>
+      <select name=""id=""class="border border-yellow-400 h-[50px] px-[10px] ml-[-10px]">
+        <option value="">All Categories</option>
+        <option value="">Clothes</option>
+        <option value="">Bags</option>
+        
+      </select >
+      <button class="bg-green-300 h-[50px] w-[50px] rounded-r-md"><i class="fa-solid fa-magnifying-glass text-white"></i></button>
+   </div>
+  
+   <div class="flex gap-10 mt-5 text-lg">
+      <div class="group">
+          <div class="hover:text-blue-500 cursor-pointer">
+            <i class="fa-solid fa-user"></i>
+            <span>Account</span>
+          </div>
+
+          <div class="flex flex-col absolute bg-white shadow-lg px-6 py-4 gag-4 top-[150px] invisible opacity-0 group-hover:opacity-100 group-hover:top-[70px] group-hover:visible duration-500">
+           <span class="hover:text-blue-500 cursor-pointer">Register</span>
+           <span class="hover:text-blue-500 cursor-pointer">Checkout</span>
+           <span class="hover:text-blue-500 cursor-pointer">Login</span>
+          </div>
+
+      </div>
+
+      <div class="hover:text-blue-500 cursor-pointer">
+        <i class="fa-solid fa-heart"></i>
+        <span>wishlist</span>
+      </div>
+
+      <div class="hover:text-blue-500 cursor-pointer">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span>cart</span>
+      </div>
+
+   </div>
+  
+  </nav>
+</header>  
+
+<header  class="container">
+  <nav class="flex items-center justify-around mt-3 ">
+
+  
+    <i class="fa-solid fa-bars"></i>
+    <div class="flex items-center justify-around gap-[30px]">
+      <div class="flex items-center p-4">
+        <a href="">Home</a>
+        <i class="fa-solid fa-angle-down"></i>
+  
+      </div>
+  
+      <div class="flex items-center p-4">
+        <a href=""> Categories</a>
+        <i class="fa-solid fa-angle-down"></i>
+      </div>
+  
+      <div class="flex items-center p-4">
+        <a href="">Products</a>
+        <i class="fa-solid fa-angle-down"></i>
+      </div>
+      
+      <div class="flex items-center p-4">
+      
+        <a href="">Pages</a>
+        <i class="fa-solid fa-angle-down"></i>
+      </div>
+  
+      <div class="flex items-center p-4">
+        <a href="">Blog</a>
+        <i class="fa-solid fa-angle-down"></i>
+      </div>
+  
+      <div class="flex items-center p-4">
+        <a href="">Elements</a>
+        <i class="fa-solid fa-angle-down"></i>
+      </div>
+    </div>
+   
+  <div>
+    <i class="fa-solid fa-phone">0977832289</i>
+  </div>
+  </nav>
+</header >
+
+ 
+<section id="hero_section carrot-icon " class="relative">
+  <div class="position-absolute bg-url">
+
+  </div> 
+  <div class="flex items-center justify-around container">
+   
+    <div class="container ">
+      <div class="space-y-3">
+        <div class="text-xl font-bold">
+          <span class="text-green-500">100%</span>Organic Vegetables
+          </div>
+          <h1 class="text-3xl font-bold">The Best Way To<br/> Spend Your Wallet</h1>
+          <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat quod optio 
+            in nostrum possimus, accusantium pariatur reprehenderit asperiores incidunt velit
+            ea animi hic molestiae. Ipsam tex inventore suscipit doloribus rerum.</p>
+         
+          <button class="bg-green-300 text-white px-3 py-3 rounded-md hover:bg-black transition-all duration-500">Shop Now</button>
+      </div>
+     
+    </div>
+  
+    <div class="w-[400px] h-[400px]">
+      <img src="https://img.freepik.com/premium-vector/wicker-basket-with-fruits-illustration-isolated-white-background_338371-903.jpg" alt="">
+    </div>
+  </div>
+  
+
+</section> 
+
+
+</html>

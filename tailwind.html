@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="flex justify-center items-center h-screen bg-red-100 ">
+
+  <div class="flex w-[800px] h-[600px] border-2 rounded-xl shadow-xl">
+    <div class="basis-1/2 bg-white rounded-l-xl">
+        <h1 class="text-center text-3xl font-bold mt-11">Login</h1>
+        <div class="text-center space-x-2 my-11">
+            <i class="fa-brands fa-facebook-f text-xl px-3 py-1 rounded-full border hover:bg-gray-300"></i>
+        <i class="fa-brands fa-twitter text-xl px-2 py-1 rounded-full border hover:bg-gray-300"></i>
+        </div>
+        
+        <form action="" class="flex flex-col items-center gap-2">
+            <div>Or use your account.</div>
+            <input type="email" placeholder="E-mail" class="focus:outline-none bg-gray-300 px-3 py-1 placeholder:font-bold">
+            <input type="password"placeholder="Password" class=" focus:outline-none bg-gray-300 px-3 py-1 placeholder: font-bold" >
+            <div>Forgot your password?</div>
+            <button class="text-white bg-pink-400 px-8 py-2 rounded-full uppercase hover:bg-pink-200">Log in</button>
+        </form>
+    </div>
+
+    <div class="basis-1/2 bg-gradient-to-r from-pink-500 to-pink-300 flex flex-col justify-center items-center rounded-r-xl">
+      <h1 class="text-white text-3xl font-bold "> Tailwind Login Form</h1>
+      <p class="text-white text-center mt-4 mx-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptatem quae veniam tempore pariatur dignissimos repellendus earum sequi voluptates voluptas laborum tempora quidem suscipit facere, mollitia praesentium nesciunt, minima ipsa!</p>
+    </div>
+  </div>
+
+
+</body>
+
+
+
+</html>
